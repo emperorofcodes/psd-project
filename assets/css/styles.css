@@ -1,0 +1,137 @@
+p {
+  padding: 30px;
+  border: 1px solid black;
+  border-top: 0;
+}
+
+p:hover {
+  border-color: gray;
+  background: gray;
+  color: white;
+}
+.navbar-info {
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.navbar-info .row {
+  min-width: 100%;
+}
+
+.navbar-info .call-area {
+  padding-top: 1%;
+}
+
+.navbar-info li {
+  list-style: none;
+  display: inline-block;
+  margin: 2%;
+}
+
+.navbar-info li a {
+  padding : 6px;
+  text-decoration: none;
+  color: white;
+  border-radius: 2px;
+  border-bottom: 2px solid transparent;
+}
+
+
+
+.navbar-info li a:hover {
+  text-decoration: none;
+  color: black;
+  background: white;
+  border-color: grey;
+}
+
+.login {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.login a {
+  text-decoration: none;
+  color: black;
+}
+
+.login a:hover {
+  background: black;
+  color: white;
+  display: block;
+}
+
+.icon {
+  background: black;
+  color: white;
+  text-align: center;
+}
+.search-icon {
+  min-width: 96%;
+  border: 1px solid;
+}
+.menu {
+  background: gray;
+  color: white;
+  text-align: center;
+}
+.menu a {
+  color: white;
+  display: block;
+  padding: 5px 0;
+  font-size: .9em;
+}
+.menu a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: gray;
+  padding: 5px 0;
+}
+
+.imo {
+  width: 770px;
+}
+
+.imt {
+  width: 337px;
+  margin-left: 9px;
+}
+
+.imr {
+  width: 365px;
+  padding-right: 0;
+}
+
+.imf {
+  width: 365px;
+  padding-right: 0;
+  padding-left: 55px;
+}
+
+.imv {
+  width: 365px;
+  padding-left: 0;
+}
+
+.cen {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.final {
+  padding-top: 50px;
+}
+
+.final p {
+  text-align: center;
+}
+
+.ic {
+  text-align: justify;
+}
+
+.ic i {
+  padding: 3px;
+}
